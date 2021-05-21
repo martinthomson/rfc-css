@@ -1,0 +1,75 @@
+/* ==UserStyle==
+@name           RFC
+@namespace      https://github.com/martinthomson/rfc-css
+@version	1.0.0
+@description    Restyle RFCs
+@author         Martin Thomson <mt@lowentropy.net>
+@homepageURL	https://github.com/martinthomson/rfc-css
+@supportURL	https://github.com/martinthomson/rfc-css/issues
+@preprocessor   default
+
+==/UserStyle== */
+@-moz-document regexp("https://(?:www\\.)ietf\\.org/archive/id/draft-.*\\.html(?:#.*)?"),
+               regexp("https://(?:www\\.)rfc-editor\\.org/rfc/rfc\\d+\\.html(?:#.*)?") {
+
+/* Flatten imports to avoid adding an extra round trip. */
+@import url("https://martinthomson.github.io/rfc-css/fonts.css");
+@import url("https://martinthomson.github.io/rfc-css/rfc.css");
+
+#identifiers dd {
+  float: none;
+}
+tt,
+code,
+pre {
+  background-color: var(--highlight-color) !important;
+}
+#toc {
+  background-color: inherit;
+}
+@media screen and (min-width: 930px) {
+  #toc {
+    top: unset;
+  }
+}
+#toc h2 {
+  font-size: 22px;
+  font-weight: bold;
+  border-bottom: none;
+}
+div#external-metadata {
+  background-color: var(--highlight-color);
+}
+#title {
+  border-bottom: none;
+}
+h2,
+h3,
+h4 {
+  padding-top: 0
+}
+td {
+  border-top: none;
+}
+a[href]:hover {
+  background-color: inherit;
+}
+.artwork pre + a.pilcrow {
+  display: inline-block;
+  vertical-align: text-bottom;
+}
+body > span.pre {
+  display: block;
+  width: calc(100% - 22px - 1em);
+  background-color: inherit;
+  white-space: inherit;
+  text-align: right;
+}
+body > span.pre:first-child {
+  text-align: left;
+}
+br {
+  display: none;
+}
+
+} /* @-moz-document */
