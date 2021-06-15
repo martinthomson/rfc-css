@@ -3,7 +3,7 @@
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: local('Lora Italic'), local('Lora-Italic'), url('fonts/lora-italic-cyrillic-ext.woff2) format('woff2'');
+  src: local('Lora Italic'), local('Lora-Italic'), url('fonts/lora-italic-cyrillic-ext.woff2') format('woff2');
   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 @font-face {
@@ -11,7 +11,7 @@
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: local('Lora Italic'), local('Lora-Italic'), url('fonts/lora-italic-cyrillic-ext.woff2) format('woff2'');
+  src: local('Lora Italic'), local('Lora-Italic'), url('fonts/lora-italic-cyrillic-ext.woff2') format('woff2');
   unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 @font-face {
@@ -19,7 +19,7 @@
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: local('Lora Italic'), local('Lora-Italic'), url('fonts/lora-italic-vietnamese.woff2) format('woff2'');
+  src: local('Lora Italic'), local('Lora-Italic'), url('fonts/lora-italic-vietnamese.woff2') format('woff2');
   unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
 }
 @font-face {
@@ -27,7 +27,7 @@
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: local('Lora Italic'), local('Lora-Italic'), url('fonts/lora-italic-latin-ext.woff2) format('woff2'');
+  src: local('Lora Italic'), local('Lora-Italic'), url('fonts/lora-italic-latin-ext.woff2') format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 
@@ -36,7 +36,7 @@
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: local('Lora Italic'), local('Lora-Italic'), url('fonts/lora-italic-latin.woff2) format('woff2'');
+  src: local('Lora Italic'), local('Lora-Italic'), url('fonts/lora-italic-latin.woff2') format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 @font-face {
@@ -44,7 +44,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Lora Regular'), local('Lora-Regular'), url('fonts/lora-regular-cyrillic-ext.woff2) format('woff2'');
+  src: local('Lora Regular'), local('Lora-Regular'), url('fonts/lora-regular-cyrillic-ext.woff2') format('woff2');
   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 @font-face {
@@ -52,7 +52,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Lora Regular'), local('Lora-Regular'), url('fonts/lora-regular-cyrillic.woff2) format('woff2'');
+  src: local('Lora Regular'), local('Lora-Regular'), url('fonts/lora-regular-cyrillic.woff2') format('woff2');
   unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 @font-face {
@@ -60,7 +60,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Lora Regular'), local('Lora-Regular'), url('fonts/lora-regular-vietnamese.woff2) format('woff2'');
+  src: local('Lora Regular'), local('Lora-Regular'), url('fonts/lora-regular-vietnamese.woff2') format('woff2');
   unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
 }
 @font-face {
@@ -68,7 +68,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Lora Regular'), local('Lora-Regular'), url('fonts/lora-regular-latin-ext.woff2) format('woff2'');
+  src: local('Lora Regular'), local('Lora-Regular'), url('fonts/lora-regular-latin-ext.woff2') format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 @font-face {
@@ -76,7 +76,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Lora Regular'), local('Lora-Regular'), url('fonts/lora-regular-latin.woff2) format('woff2'');
+  src: local('Lora Regular'), local('Lora-Regular'), url('fonts/lora-regular-latin.woff2') format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
@@ -85,7 +85,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local('Lora Bold'), local('Lora-Bold'), url('fonts/lora-bold-cyrillic-ext.woff2) format('woff2'');
+  src: local('Lora Bold'), local('Lora-Bold'), url('fonts/lora-bold-cyrillic-ext.woff2') format('woff2');
   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 @font-face {
@@ -93,7 +93,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local('Lora Bold'), local('Lora-Bold'), url('fonts/lora-bold-cyrillic.woff2) format('woff2'');
+  src: local('Lora Bold'), local('Lora-Bold'), url('fonts/lora-bold-cyrillic.woff2') format('woff2');
   unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 @font-face {
@@ -101,7 +101,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local('Lora Bold'), local('Lora-Bold'), url('fonts/lora-bold-vietnamese.woff2) format('woff2'');
+  src: local('Lora Bold'), local('Lora-Bold'), url('fonts/lora-bold-vietnamese.woff2') format('woff2');
   unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
 }
 @font-face {
@@ -109,7 +109,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local('Lora Bold'), local('Lora-Bold'), url('fonts/lora-bold-latin-ext.woff2) format('woff2'');
+  src: local('Lora Bold'), local('Lora-Bold'), url('fonts/lora-bold-latin-ext.woff2') format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 @font-face {
@@ -117,7 +117,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local('Lora Bold'), local('Lora-Bold'), url('fonts/lora-bold-latin.woff2) format('woff2'');
+  src: local('Lora Bold'), local('Lora-Bold'), url('fonts/lora-bold-latin.woff2') format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
@@ -126,7 +126,7 @@
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: local('Cardo Italic'), local('Cardo-Italic'), url('fonts/cardo-italic-greek-ext.woff2) format('woff2'');
+  src: local('Cardo Italic'), local('Cardo-Italic'), url('fonts/cardo-italic-greek-ext.woff2') format('woff2');
   unicode-range: U+1F00-1FFF;
 }
 @font-face {
@@ -134,7 +134,7 @@
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: local('Cardo Italic'), local('Cardo-Italic'), url('fonts/cardo-italic-greek.woff2) format('woff2'');
+  src: local('Cardo Italic'), local('Cardo-Italic'), url('fonts/cardo-italic-greek.woff2') format('woff2');
   unicode-range: U+0370-03FF;
 }
 @font-face {
@@ -142,7 +142,7 @@
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: local('Cardo Italic'), local('Cardo-Italic'), url('fonts/cardo-italic-latin-ext.woff2) format('woff2'');
+  src: local('Cardo Italic'), local('Cardo-Italic'), url('fonts/cardo-italic-latin-ext.woff2') format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 @font-face {
@@ -150,7 +150,7 @@
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: local('Cardo Italic'), local('Cardo-Italic'), url('fonts/cardo-italic-latin.woff2) format('woff2'');
+  src: local('Cardo Italic'), local('Cardo-Italic'), url('fonts/cardo-italic-latin.woff2') format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
@@ -159,7 +159,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Cardo'), local('Cardo-Regular'), url('fonts/cardo-regular-greek-ext.woff2) format('woff2'');
+  src: local('Cardo'), local('Cardo-Regular'), url('fonts/cardo-regular-greek-ext.woff2') format('woff2');
   unicode-range: U+1F00-1FFF;
 }
 @font-face {
@@ -167,7 +167,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Cardo'), local('Cardo-Regular'), url('fonts/cardo-regular-greek.woff2) format('woff2'');
+  src: local('Cardo'), local('Cardo-Regular'), url('fonts/cardo-regular-greek.woff2') format('woff2');
   unicode-range: U+0370-03FF;
 }
 @font-face {
@@ -175,7 +175,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Cardo'), local('Cardo-Regular'), url('fonts/cardo-regular-latin-ext.woff2) format('woff2'');
+  src: local('Cardo'), local('Cardo-Regular'), url('fonts/cardo-regular-latin-ext.woff2') format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 @font-face {
@@ -183,7 +183,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Cardo'), local('Cardo-Regular'), url('fonts/cardo-regular-latin.woff2) format('woff2'');
+  src: local('Cardo'), local('Cardo-Regular'), url('fonts/cardo-regular-latin.woff2') format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
@@ -192,7 +192,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local('Cardo Bold'), local('Cardo-Bold'), url('fonts/cardo-bold-greek-ext.woff2) format('woff2'');
+  src: local('Cardo Bold'), local('Cardo-Bold'), url('fonts/cardo-bold-greek-ext.woff2') format('woff2');
   unicode-range: U+1F00-1FFF;
 }
 @font-face {
@@ -200,7 +200,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local('Cardo Bold'), local('Cardo-Bold'), url('fonts/cardo-bold-greek.woff2) format('woff2'');
+  src: local('Cardo Bold'), local('Cardo-Bold'), url('fonts/cardo-bold-greek.woff2') format('woff2');
   unicode-range: U+0370-03FF;
 }
 @font-face {
@@ -208,7 +208,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local('Cardo Bold'), local('Cardo-Bold'), url('fonts/cardo-bold-latin-ext.woff2) format('woff2'');
+  src: local('Cardo Bold'), local('Cardo-Bold'), url('fonts/cardo-bold-latin-ext.woff2') format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 @font-face {
@@ -216,7 +216,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local('Cardo Bold'), local('Cardo-Bold'), url('fonts/cardo-bold-latin.woff2) format('woff2'');
+  src: local('Cardo Bold'), local('Cardo-Bold'), url('fonts/cardo-bold-latin.woff2') format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
@@ -225,7 +225,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local('News Cycle Bold'), local('NewsCycle-Bold'), url('fonts/newscycle-bold-latin-ext.woff2) format('woff2'');
+  src: local('News Cycle Bold'), local('NewsCycle-Bold'), url('fonts/newscycle-bold-latin-ext.woff2') format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 @font-face {
@@ -233,7 +233,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local('News Cycle Bold'), local('NewsCycle-Bold'), url('fonts/newscycle-bold-latin.woff2) format('woff2'');
+  src: local('News Cycle Bold'), local('NewsCycle-Bold'), url('fonts/newscycle-bold-latin.woff2') format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
@@ -242,7 +242,7 @@
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: local('Encode Sans Condensed SemiBold'), local('EncodeSansCondensed-SemiBold'), url('fonts/encodesanscondensed-semibold-vietnamese.woff2) format('woff2'');
+  src: local('Encode Sans Condensed SemiBold'), local('EncodeSansCondensed-SemiBold'), url('fonts/encodesanscondensed-semibold-vietnamese.woff2') format('woff2');
   unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
 }
 @font-face {
@@ -250,7 +250,7 @@
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: local('Encode Sans Condensed SemiBold'), local('EncodeSansCondensed-SemiBold'), url('fonts/encodesanscondensed-semibold-latin-ext.woff2) format('woff2'');
+  src: local('Encode Sans Condensed SemiBold'), local('EncodeSansCondensed-SemiBold'), url('fonts/encodesanscondensed-semibold-latin-ext.woff2') format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 @font-face {
@@ -258,7 +258,7 @@
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: local('Encode Sans Condensed SemiBold'), local('EncodeSansCondensed-SemiBold'), url('fonts/encodesanscondensed-semibold-latin.woff2) format('woff2'');
+  src: local('Encode Sans Condensed SemiBold'), local('EncodeSansCondensed-SemiBold'), url('fonts/encodesanscondensed-semibold-latin.woff2') format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
@@ -267,7 +267,7 @@
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: local('Encode Sans Semi Condensed SemiBold'), local('EncodeSansSemiCondensed-SemiBold'), url('fonts/encodesanssemicondensed-semibold-vietnamese.woff2) format('woff2'');
+  src: local('Encode Sans Semi Condensed SemiBold'), local('EncodeSansSemiCondensed-SemiBold'), url('fonts/encodesanssemicondensed-semibold-vietnamese.woff2') format('woff2');
   unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
 }
 @font-face {
@@ -275,7 +275,7 @@
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: local('Encode Sans Semi Condensed SemiBold'), local('EncodeSansSemiCondensed-SemiBold'), url('fonts/encodesanssemicondensed-semibold-latin-ext.woff2) format('woff2'');
+  src: local('Encode Sans Semi Condensed SemiBold'), local('EncodeSansSemiCondensed-SemiBold'), url('fonts/encodesanssemicondensed-semibold-latin-ext.woff2') format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 @font-face {
@@ -283,7 +283,7 @@
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: local('Encode Sans Semi Condensed SemiBold'), local('EncodeSansSemiCondensed-SemiBold'), url('fonts/encodesanssemicondensed-semibold-latin.woff2) format('woff2'');
+  src: local('Encode Sans Semi Condensed SemiBold'), local('EncodeSansSemiCondensed-SemiBold'), url('fonts/encodesanssemicondensed-semibold-latin.woff2') format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
@@ -292,7 +292,7 @@
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: local('Cabin Condensed SemiBold'), local('CabinCondensed-SemiBold'), url('fonts/cabincondensed-semibold-vietnamese.woff2) format('woff2'');
+  src: local('Cabin Condensed SemiBold'), local('CabinCondensed-SemiBold'), url('fonts/cabincondensed-semibold-vietnamese.woff2') format('woff2');
   unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
 }
 @font-face {
@@ -300,7 +300,7 @@
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: local('Cabin Condensed SemiBold'), local('CabinCondensed-SemiBold'), url('fonts/cabincondensed-semibold-latin-ext.woff2) format('woff2'');
+  src: local('Cabin Condensed SemiBold'), local('CabinCondensed-SemiBold'), url('fonts/cabincondensed-semibold-latin-ext.woff2') format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 @font-face {
@@ -308,7 +308,7 @@
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: local('Cabin Condensed SemiBold'), local('CabinCondensed-SemiBold'), url('fonts/cabincondensed-semibold-latin.woff2) format('woff2'');
+  src: local('Cabin Condensed SemiBold'), local('CabinCondensed-SemiBold'), url('fonts/cabincondensed-semibold-latin.woff2') format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
@@ -317,7 +317,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Oxygen Mono'), local('OxygenMono-Regular'), url('fonts/oxygenmono-regular-latin-ext.woff2) format('woff2'');
+  src: local('Oxygen Mono'), local('OxygenMono-Regular'), url('fonts/oxygenmono-regular-latin-ext.woff2') format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 @font-face {
@@ -325,6 +325,6 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Oxygen Mono'), local('OxygenMono-Regular'), url('fonts/oxygenmono-regular-latin.woff2) format('woff2'');
+  src: local('Oxygen Mono'), local('OxygenMono-Regular'), url('fonts/oxygenmono-regular-latin.woff2') format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
