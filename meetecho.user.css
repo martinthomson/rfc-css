@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name           Meetecho
+@namespace      https://github.com/martinthomson/rfc-css
+@version	1.0.1
+@description    A pink box for speakers
+@author         Martin Thomson <mt@lowentropy.net>
+@homepageURL	https://github.com/martinthomson/rfc-css
+@supportURL	https://github.com/martinthomson/rfc-css/issues
+@preprocessor   default
+
+==/UserStyle== */
+@-moz-document domain("ws.conf.meetecho.com") {
+.pulser .video-shadow {
+    box-shadow: inset 0px 0px 0px 10px rgba(255, 7, 230, .5);
+}
+}
