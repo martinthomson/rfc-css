@@ -74,5 +74,9 @@ br {
 ul.compact, .ulCompact, ol.compact, .olCompact, dl.compact, .dlCompact {
   line-height: inherit;
 }
+blockquote {
+  background-color: transparent;
+  border: none;
+}
 
 } /* @-moz-document */
