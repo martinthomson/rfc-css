@@ -74,9 +74,15 @@ br {
 ul.compact, .ulCompact, ol.compact, .olCompact, dl.compact, .dlCompact {
   line-height: inherit;
 }
-blockquote {
+blockquote, .rfcEditorRemove {
   background-color: transparent;
   border: none;
+}
+.rfcEditorRemove {
+  padding-top: 0;
+}
+.rfcEditorRemove::before {
+  display: none;
 }
 
 } /* @-moz-document */
