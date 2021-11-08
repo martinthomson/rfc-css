@@ -9,7 +9,7 @@
 @preprocessor   default
 
 ==/UserStyle== */
-@-moz-document domain("ws.conf.meetecho.com") {
+@-moz-document domain("ws.conf.meetecho.com"), domain("wws.conf.meetecho.com") {
 .pulser .video-shadow {
     box-shadow: inset 0px 0px 0px 10px rgba(255, 7, 230, .5);
 }
