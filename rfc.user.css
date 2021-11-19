@@ -54,9 +54,11 @@ td {
 a[href]:hover {
   background-color: inherit;
 }
-.artwork pre + a.pilcrow {
+.artwork pre + a.pilcrow,
+.artwork svg + a.pilcrow {
   display: inline-block;
   vertical-align: text-bottom;
+  margin-top: 0;
 }
 body > span.pre {
   display: block;
