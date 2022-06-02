@@ -361,8 +361,9 @@ hr {
 }
 .bcp14 {
   font-variant: small-caps;
+  font-weight: 600;
+  font-size: 0.9em;
 }
-
 .role {
   font-variant: all-small-caps;
 }
@@ -783,12 +784,6 @@ address div.right {
     page-break-inside: avoid;
   }
 
-}
-/* Tweak the bcp14 keyword presentation */
-.bcp14 {
-  font-variant: small-caps;
-  font-weight: bold;
-  font-size: 0.9em;
 }
 
 /* Dark mode. */
