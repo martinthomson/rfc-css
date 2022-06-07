@@ -240,7 +240,7 @@ figcaption, caption {
   :is(#status-of-memo, #copyright) p {
     margin: -2px 0;
     max-height: 0;
-    transition: max-height 2s ease, margin 0.5s ease 0.5s;
+    transition: margin 0.5s linear, max-height 2s ease;
     overflow: hidden;
   }
   :is(#status-of-memo, #copyright):hover p,
