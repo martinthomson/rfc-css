@@ -38,7 +38,7 @@ tt, code, pre {
 div#external-metadata {
   background-color: var(--highlight-color);
 }
-#title, #rfcnum {
+h1#title, h1#rfcnum {
   border-bottom: none;
   padding: 0;
 }
