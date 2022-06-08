@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           RFC
 @namespace      https://github.com/martinthomson/rfc-css
-@version	1.1.0
+@version	1.1.1
 @description    Restyle RFCs
 @author         Martin Thomson <mt@lowentropy.net>
 @homepageURL	https://github.com/martinthomson/rfc-css
@@ -19,9 +19,7 @@
 #identifiers dd {
   float: none;
 }
-tt,
-code,
-pre {
+tt, code, pre {
   background-color: var(--highlight-color) !important;
 }
 #toc {
@@ -40,12 +38,11 @@ pre {
 div#external-metadata {
   background-color: var(--highlight-color);
 }
-#title {
+#title, #rfcnum {
   border-bottom: none;
+  padding: 0;
 }
-h2,
-h3,
-h4 {
+h2, h3, h4 {
   padding-top: 0
 }
 td {
@@ -54,8 +51,7 @@ td {
 a[href]:hover {
   background-color: inherit;
 }
-.artwork pre + a.pilcrow,
-.artwork svg + a.pilcrow {
+.artwork :is(pre, svg) + a.pilcrow {
   display: inline-block;
   vertical-align: text-bottom;
   margin-top: 0;
@@ -73,7 +69,7 @@ body > span.pre:first-child {
 br {
   display: none;
 }
-ul.compact, .ulCompact, ol.compact, .olCompact, dl.compact, .dlCompact {
+:is(ul, ol, dl).compact, .ulCompact, .olCompact, .dlCompact {
   line-height: inherit;
 }
 blockquote, .rfcEditorRemove {
