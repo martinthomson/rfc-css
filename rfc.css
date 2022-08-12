@@ -254,7 +254,7 @@ figcaption, caption {
   :is(#status-of-memo, #copyright) p {
     margin: -2px 0;
     max-height: 0;
-    transition: margin 0.5s linear, max-height 2s ease;
+    transition: max-height 2s ease, margin 0.5s ease 0.5s;
     overflow: hidden;
   }
   :is(#status-of-memo, #copyright):hover p,
@@ -383,11 +383,11 @@ hr {
   margin: 0;
   font-size: var(--small-font-size);
   line-height: 18px;
-  --identifier-width: 8em;
+  --identifier-width: 15ch;
 }
 #identifiers dt {
   width: var(--identifier-width);
-  margin: 0;
+  min-width: var(--identifier-width);
   clear: left;
   float: left;
   text-align: right;
