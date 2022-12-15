@@ -208,7 +208,7 @@ a[href]:hover {
 a[href].selfRef:hover {
   background-color: var(--highlight-color);
 }
-a.xref {
+a.xref:is(.cite, .auto) {
   white-space: nowrap;
 }
 
