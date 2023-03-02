@@ -9,7 +9,7 @@
 @preprocessor   default
 
 ==/UserStyle== */
-@-moz-document regexp("https://(?:www\\.)ietf\\.org/(?:archive/id/draft-|rfc/rfc).*\\.html(?:#.*)?"),
+@-moz-document regexp("https://(?:www\\.)ietf\\.org/(?:(?:archive/)?id/draft-|rfc/rfc).*\\.html(?:#.*)?"),
                regexp("https://(?:www\\.)rfc-editor\\.org/rfc/(?:internet-drafts/draft-.*-|rfc)\\d+(?:\\.html)?(?:#.*)?") {
 
 /* Flatten imports to avoid adding an extra round trip. */
