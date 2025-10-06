@@ -75,6 +75,7 @@ br {
 blockquote, .rfcEditorRemove {
   background-color: transparent;
   border: none;
+  text-color: var(--text-color);
 }
 .rfcEditorRemove {
   padding-top: 0;
