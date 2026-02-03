@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           RFC
 @namespace      https://github.com/martinthomson/rfc-css
-@version	1.1.2
+@version	1.1.3
 @description    Restyle RFCs
 @author         Martin Thomson <mt@lowentropy.net>
 @homepageURL	https://github.com/martinthomson/rfc-css
@@ -9,8 +9,12 @@
 @preprocessor   default
 
 ==/UserStyle== */
-@-moz-document regexp("https://(?:www\\.)ietf\\.org/(?:(?:archive/)?id/draft-|rfc/rfc).*\\.html(?:#.*)?"),
-               regexp("https://(?:www\\.)rfc-editor\\.org/rfc/(?:internet-drafts/draft-.*-|rfc)\\d+(?:\\.html)?(?:#.*)?") {
+@-moz-document
+  regexp("https://(?:www\\.)ietf\\.org/(?:(?:archive/)?id/draft-|rfc/rfc).*\\.html(?:#.*)?"),
+  regexp("https://(?:www\\.)rfc-editor\\.org/rfc/(?:internet-drafts/draft-.*-|rfc)\\d+(?:\\.html)?(?:#.*)?"),
+  url-prefix("https://www.rfc-editor.org/v3test/"),
+  url-prefix("https://rfcs.online/rfcs/")
+{
 
 /* Flatten imports to avoid adding an extra round trip. */
 @import url("https://martinthomson.github.io/rfc-css/fonts.css");
